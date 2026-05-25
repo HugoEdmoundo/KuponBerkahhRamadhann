@@ -1,4 +1,4 @@
-const BASE_URL = (import.meta.env.VITE_API_URL ?? "https://kuponberkahhramadhann-api.hugoedmoundo.fun").replace(/\/$/, "");
+const BASE_URL = (import.meta.env.VITE_API_URL ?? "https://kuponberkahhramadhann-api.hugoedmoundo.fun/").replace(/\/$/, "");
 const WS_URL = BASE_URL.replace(/^https/, "wss").replace(/^http/, "ws");
 
 // ── Types ──────────────────────────────────────────────────────────────────
